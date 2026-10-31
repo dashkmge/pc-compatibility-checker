@@ -1,5 +1,7 @@
 # PC Compatibility Checker
 
+[🌐 Live Demo](https://dashkmge.github.io/pc-compatibility-checker/)
+
 A web-based tool for checking PC hardware compatibility, estimating power requirements and finding alternative components.
 
 ## Features
