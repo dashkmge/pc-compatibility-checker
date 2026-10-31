@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Check whether your PC parts work together: socket, RAM, BIOS, power and connectors.">
+<title>PC Compatibility Checker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top wrap">
+  <h1>PC Compatibility Checker</h1>
+  <p class="lead">Choose your parts and see right away what fits, what needs a BIOS update, and what will not work together.</p>
+  <div id="stats" class="stats"></div>
+</header>
+<main class="wrap layout">
+  <section aria-labelledby="build-h">
+    <h2 id="build-h" class="sec">Your build</h2>
+    <div id="parts"></div>
+    <button id="reset" type="button" class="ghost">Clear selection</button>
+  </section>
+  <aside class="side" aria-live="polite" aria-label="Compatibility result">
+    <div id="result"></div>
+  </aside>
+</main>
+<footer class="wrap">Specs follow manufacturer data where available. Board revisions and card variants differ, so confirm with the manufacturer before you buy.</footer>
+<script src="script.js"></script>
+</body>
+</html>
